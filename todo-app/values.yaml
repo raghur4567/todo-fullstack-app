@@ -1,0 +1,13 @@
+backend:
+  replicaCount: 1
+  image:
+    repository: 404426648015.dkr.ecr.ap-south-1.amazonaws.com/todo-backend
+    tag: latest
+  port: 8080
+
+frontend:
+  replicaCount: 2
+  image:
+    repository: 404426648015.dkr.ecr.ap-south-1.amazonaws.com/todo-frontend
+    tag: latest
+  port: 80
