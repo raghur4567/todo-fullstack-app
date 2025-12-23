@@ -16,3 +16,8 @@ target/
 # IDE
 .vscode/
 .idea/
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
